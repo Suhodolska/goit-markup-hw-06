@@ -34,16 +34,13 @@ img {
         border-bottom: 1px solid #E7E9FC;
  }     
 
- .webstudio {
-        display: flex;
- }
-
  .container-header {
-        display: flex;
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
+        display: flex;
  }     
+
 
  .header-nav {
         display: flex;
@@ -116,7 +113,6 @@ img {
         gap: 40px;
         padding-top: 24px;
         padding-bottom: 24px;
-
 }       
       
        /* PAGE-STUDIO */
