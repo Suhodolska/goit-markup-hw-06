@@ -42,9 +42,7 @@ img {
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+
 
 
  }     
@@ -110,6 +108,7 @@ img {
 
 .page-contacts {
     font-style: normal;  
+    margin-left: auto;
        
 } 
 
