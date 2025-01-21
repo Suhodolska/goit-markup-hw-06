@@ -39,6 +39,7 @@ img {
  }
 
  .container-header {
+        display: flex;
         width: 1158px;
         margin: 0 auto;
         padding: 0 15px;
@@ -112,6 +113,8 @@ img {
 .address-list {
         display: flex;
         gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
         
 }       
       
