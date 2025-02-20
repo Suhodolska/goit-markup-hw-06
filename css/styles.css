@@ -20,6 +20,9 @@ ol {
     padding: 0;
 }
 
+address {
+font-family: Roboto, sans-serif;
+}
 a {
     text-decoration: none;
 }
@@ -347,7 +350,7 @@ img {
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
-     max-width: 320px;
+     width: 100%;
      margin-left: auto;
      margin-right: auto;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpg);
@@ -403,7 +406,7 @@ img {
 .container-studio {
 }
 .page-studio {
-    max-width: 768px;
+    width: 100%;
     padding-top: 112px;
     padding-bottom: 112px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
@@ -428,7 +431,7 @@ img {
 
 @media screen and (min-width: 1158px) {
 .page-studio {
-        max-width: 1158px;
+        width: 100%;
         padding-top: 188px;
         padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
@@ -679,7 +682,7 @@ padding: 32px 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: 48px;
 }
 
 .portfolio-item {
@@ -825,7 +828,6 @@ padding: 32px 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-bottom: 16px;
     text-align: start;
 }
 
@@ -849,7 +851,6 @@ padding: 32px 16px;
 
 .footer-soc-list {
     display: flex;
-    margin-top: 16px;
     gap: 16px;
 
 }
@@ -944,6 +945,10 @@ padding: 32px 16px;
         align-items:flex-start
 }
 
+.container-footer-logo {
+    text-align: start;
+}
+
 .footer-text {
     max-width: 264px;
 }
@@ -973,6 +978,7 @@ padding: 32px 16px;
     gap: 0;
     flex-wrap: nowrap;
     align-items: baseline;
+    margin: 0;
 }
 
 .container-footer-logo {
